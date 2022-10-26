@@ -2,7 +2,7 @@
   <div class="flex flex-column h-screen justify-content-between">
     <div>
       <Header />
-      <Weather />
+      <router-view class="m-4"></router-view>
     </div>
     <Footer />
   </div>
